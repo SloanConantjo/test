@@ -2,7 +2,7 @@ import time; import array; import numpy as np
 from calc_z_cython import calc_z
 
 x1, x2, y1, y2 = -1.8, 1.8, -1.8, 1.8    
-c_real, c_imag = -0.476536, 0.578511
+c_real, c_imag = -0.476536, 0.578519
 
 def calc_Julia(show, length, max_iter):
     xs = np.linspace(x1, x2, length)
