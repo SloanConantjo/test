@@ -40,4 +40,4 @@ def show_image(output_raw, length, max_iter):
     im.show()
     im.save("julia.jpg")
 
-calc_Julia(show=False, length=600, max_iter=600)
+calc_Julia(show=True, length=600, max_iter=600)
