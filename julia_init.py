@@ -38,6 +38,6 @@ def show_image(output_raw, length, max_iter):
     im = Image.new("RGB", (length, length));
     im.frombytes(rgb.tobytes(), "raw", "RGB")
     im.show()
-    im.save("julia.jpg")
+    im.save("julia.png")
 
 calc_Julia(show=True, length=600, max_iter=600)
